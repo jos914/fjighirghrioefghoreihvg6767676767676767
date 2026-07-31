@@ -1,0 +1,5 @@
+for i in range(4):
+    j=["*","*","*","*"]
+    for p in range(4):
+        print(j[p],end="")
+    print('\n')

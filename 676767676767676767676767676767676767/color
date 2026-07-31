@@ -1,0 +1,18 @@
+import turtle
+import random
+from turtle import *
+speed(0)
+while True:
+    c=random.randint(1,4)
+    if c== "1":
+        pencolor("green")
+    if c== "2":
+        pencolor("red")
+    if c== "3":
+        pencolor("blue")
+    if c== "4":
+        pencolor("gold")
+    d=random.randint(1,100)
+    t=random.randint(1,359)
+    forward(d)
+    right(t)

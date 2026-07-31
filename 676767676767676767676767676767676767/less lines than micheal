@@ -1,0 +1,6 @@
+import turtle
+from turtle import *
+while True:
+    q=int(input("Give Me A Number"))
+    turtle.circle(q)
+    turtle.done()

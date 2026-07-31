@@ -1,0 +1,86 @@
+import turtle
+from turtle import *
+def square():
+    forward(50)
+    right(90)
+    forward(50)
+    right(90)
+    forward(50)
+    right(90)
+    forward(50)
+    right(90)
+def triangle():
+    left(120)
+    forward(120)
+    left(120)
+    forward(120)
+    left(120)
+    forward(120)
+def pentagon():
+    left(72)
+    forward(72)
+    left(72)
+    forward(72)
+    left(72)
+    forward(72)
+    left(72)
+    forward(72)
+    left(72)
+    forward(72)
+def circle():
+    turtle.circle(100)
+def hexagon():
+    forward(120)
+    left(60)
+    forward(120)
+    left(60)
+    forward(120)
+    left(60)
+    forward(120)
+    left(60)
+    forward(120)
+    left(60)
+    forward(120)
+    right(1)
+micheal=input("What shape do you want to draw, a circle, triangle, square, pentagon, hexagon: ")
+if micheal== "circle":
+    circle()
+if micheal== "triangle":
+    triangle()
+if micheal== "square":
+    square()
+if micheal== "pentagon":
+    pentagon()
+if micheal== "hexagon":
+    hexagon()
+turtle.done()
+
+
+
+
+print("        _____/  \\____")
+print("    ___/             \\____")
+print(" __/                      \\__")
+print("/                            \\")
+print("|                ___________ |")
+print("|  |       |          |      |")
+print("|  |       |          |      |")
+print("|  |       |          |      |")
+print("|  |_______|          |      |")
+print("|  |       |          |      | ")
+print("|  |       |          |      |")
+print("|  |       |     _____|_____ |")
+print("\                            /")
+print(" \                          /")
+print("  \                        / ")
+print("   \                      /  ")
+print("    \                    / ")
+print("     \                  /")
+print("      \                /")
+print("       \              / ")
+print("        \            / ")
+print("          \        / ")
+print("           \      / ")
+print("            \    / ")
+print("             \  / ")
+print("              \/")

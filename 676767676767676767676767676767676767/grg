@@ -1,0 +1,52 @@
+import turtle
+import random
+from turtle import *
+speed(0)
+for i in range(360):
+    c=random.randint(1,6)
+    if c==1:
+        pencolor("green")
+    if c==2:
+        pencolor("blue")
+    if c==3:
+        pencolor("red")
+    if c==4:
+        pencolor("gold")
+    if c==5:
+        pencolor("silver")
+    if c==6:
+        pencolor("purple")
+
+    turtle.circle(100)
+    right(1)
+for i in range(150):
+    c=random.randint(1,6)
+    if c==1:
+        pencolor("green")
+    if c==2:
+        pencolor("blue")
+    if c==3:
+        pencolor("red")
+    if c==4:
+        pencolor("gold")
+    if c==5:
+        pencolor("silver")
+    if c==6:
+        pencolor("purple")
+
+    t=random.randint(1, 359)
+
+    right(60)
+    forward(60)
+    left(60)
+    forward(60)
+    left(60)
+    forward(60)
+    left(60)
+    forward(60)
+    left(60)
+    forward(60)
+    left(60)
+    forward(60)
+    right(1)
+turtle.done()
